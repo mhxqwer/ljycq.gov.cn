@@ -1,0 +1,87 @@
+.mesBox{
+	box-shadow: 1px 1px 10px 0 rgba(30,101,182,.5);
+	box-shadow: .01rem .01rem .1rem 0 rgba(30,101,182,.5);
+	/*background: rgba(255,255,255,.68);*/
+	background: #fff;
+	padding: 10px 15px 12px;
+	padding: .1rem .15rem .12rem;
+	position: fixed;
+	right: 10px;
+	right: .1rem;
+	bottom: 10px;
+	bottom: .1rem;
+	width: 310px;
+	width: 3.1rem;
+	box-sizing: border-box;
+	z-index: 999;
+}
+.mesTop{
+	padding-bottom: 12px;
+	padding-bottom: .12rem;
+	line-height: 30px;
+	line-height: .3rem;
+	border-bottom: 1px solid #e1e1e1;
+}
+.mesTop .ic{
+	height: 30px;
+	height: .3rem;
+	margin-right: 10px;
+	margin-right: .1rem;
+	vertical-align: top;
+}
+.mesTop .tit{
+	color: #002248;
+	font-size: 18px;
+	font-size: .18rem;
+	font-weight: bold;
+	vertical-align: top;
+}
+.mesTop .close{
+	float: right;
+	height: 21px;
+	height: .21rem;
+	margin-top: 4px;
+	margin-top: .04rem;
+	cursor: pointer;
+}
+.mesBoxInfo{
+	padding: 16px 0;
+	padding: .16rem 0;
+}
+.mesBoxInfo .tit{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #333333;
+	font-size: 16px;
+	font-size: .16rem;
+}
+.mesBoxInfo .con{
+	color: #666666;
+	font-size: 14px;
+	font-size: .14rem;
+	margin-top: 10px;
+	margin-top: .1rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.mesBoxBtn{
+	text-align: center;
+}
+.mesBoxBtn a{
+	display: inline-block;
+	width: 107px;
+	width: 1.07rem;
+	height: 29px;
+	height: .29rem;
+	line-height: 29px;
+	line-height: .29rem;
+	color: #fff;
+	font-size: 16px;
+	font-size: .16rem;
+	border-radius: 7px;
+	border-radius: .07rem;
+	background: url(../images/mesboxbg1.png) center no-repeat;
+	background-size: 100% 100%;
+}
